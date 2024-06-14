@@ -22,9 +22,14 @@ Key elements of the project include:
 
 Tech stack:
 -Python 
+
 -Django(Django REST framework)
+
 -HTML,CSS,JavaScript
+
 -SQL
+
+-API
 
 
 
