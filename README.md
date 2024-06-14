@@ -63,6 +63,12 @@ Only users who are authorized can view the profile page and make changes.In orde
 
 
 
+INBOX PAGE:
+
+![Screenshot 2024-06-14 131052](https://github.com/mariamm786/Django/assets/153979125/91302a47-d84a-4a83-8f1e-5759165c626c)
+
+
+
 
 
 
