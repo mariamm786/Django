@@ -59,6 +59,12 @@ NOTE:
 Only users who are authorized can view the profile page and make changes.In order to login to the website,the individual must register themselves and proceed with their actions.
 
 
+![Screenshot 2024-06-14 130627](https://github.com/mariamm786/Django/assets/153979125/9b119f9c-03d5-4cc8-ba93-2e14fba38d6b)
+
+
+
+
+
 
 
 
