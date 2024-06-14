@@ -69,6 +69,12 @@ INBOX PAGE:
 
 
 
+MESSAGE PAGE:
+
+![Screenshot 2024-06-14 131210](https://github.com/mariamm786/Django/assets/153979125/43a5dd47-a8a0-46c2-8688-f3b2d2b5087c)
+
+
+
 
 
 
