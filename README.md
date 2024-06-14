@@ -42,6 +42,14 @@ HOME PAGE:
 
 
 
+REGISTRATION PAGE:
+
+![Screenshot 2024-06-14 125606](https://github.com/mariamm786/Django/assets/153979125/09c0e149-7e25-4b0f-b18e-b22b7c15e982)
+
+
+
+
+
 
 
 
