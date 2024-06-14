@@ -53,6 +53,15 @@ PROJECTS PAGE:
 
 
 
+PROFILE PAGE(ACCOUNT):
+
+NOTE:
+Only users who are authorized can view the profile page and make changes.In order to login to the website,the individual must register themselves and proceed with their actions.
+
+
+
+
+
 
 
 
