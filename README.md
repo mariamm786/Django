@@ -29,6 +29,11 @@ Tech stack:
 
 
 
+HOME PAGE:
+![Screenshot 2024-06-14 124535](https://github.com/mariamm786/Django/assets/153979125/5f1d33d7-58d8-436b-8b62-3cc2c669cfd7)
+
+
+
 
 
 
