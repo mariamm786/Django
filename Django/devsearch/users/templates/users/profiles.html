@@ -2,6 +2,16 @@
 
 {% block content %}
 
+
+
+<style>
+  li{
+   display: inline;
+   padding: 10px;
+   
+  }
+ </style>
+
 <!-- Main Section -->
 <main class="home">
     <section class="hero-section text-center">
@@ -12,11 +22,11 @@
         </div>
 
         <div class="hero-section__search">
-          <form class="form" action="#" method="get">
+          <form id=searchForm class="form" action="{% url 'profiles' %}" method="get">
             <div class="form__field">
               <label for="formInput#search">Search Developers </label>
-              <input class="input input--text" id="formInput#search" type="text" name="text"
-                placeholder="Search by developer name" />
+              <input class="input input--text" id="formInput#search" type="text" name="search_query"
+               value="{{search_query}}" placeholder="Search by developer name" />
             </div>
 
             <input class="btn btn--sub btn--lg" type="submit" value="Search" />
@@ -42,13 +52,12 @@
                 </div>
                 <p class="dev__info"> {{profile.bio|slice:"150"}}</p>
                 <div class="dev__skills">
-                  {% for skill in profile.skill_set.all %}
+                {% for skill in profile.skill_set.all|slice:"6" %}
 
-                  <script> var profile= "{{profile}}"
-                   console.log(profile)</script>
-                  <span class="tag tag--pill tag--main">
-                    <small>{{skill}}</small>
-                  </span>
+  
+                <span class="tag tag--pill tag--main">
+                   <small>{{skill}}</small>
+                </span>
                 {% endfor %}
 
 
@@ -64,7 +73,7 @@
         </div>
       </div>
     </section>
-
+    {% include 'pagination.html' with queryset=profiles custom_range=custom_range %}
   
   </main>
 
