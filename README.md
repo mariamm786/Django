@@ -48,6 +48,10 @@ REGISTRATION PAGE:
 
 
 
+PROJECTS PAGE:
+![Screenshot 2024-06-14 130147](https://github.com/mariamm786/Django/assets/153979125/1a4e4ed1-19f2-4a29-8d16-690bedda1f9e)
+
+
 
 
 
